@@ -1,8 +1,1 @@
-# =============================================================================
-# Project Codex config (this file lives inside the repo)
-# Loaded only when the project/workspace is trusted.
-# =============================================================================
-
-approval_policy = "never"
-# sandbox_mode = "workspace-write"
-sandbox_mode = "danger-full-access"
+# Inherit approval and sandbox settings from the user's Codex configuration.
